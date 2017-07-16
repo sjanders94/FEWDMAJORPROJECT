@@ -1,0 +1,129 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Purchase Tickets</title>
+        <link rel="stylesheet" href="main.css">
+        </head>
+        <body>
+
+        <h1>Purchase Tickets</h1>
+    </head>
+    <body>
+<form action="index.html" method="post">
+  
+  <h1>Skip the line!</h1>
+  <fieldset> 
+    
+    <legend><span class="number"></span>Fill in all spaces below</legend>
+    
+    <label for="name">Name</label> <br>
+    <input type="text" id="name" name="user_name"> <br>
+    
+    <label for="mail">Email</label> <br>
+    <input type="email" id="mail" name="user_email"> <br>
+   
+   <label for="address">Billing Address</label> <br>
+    <input type="address" id="address" name="user_address"> <br>
+
+    <label for="city">City</label> <br>
+    <input type="city" id="city" name="user_city"> <br>
+
+   <label for="state">State</label> <br>
+    <input type="state" id="state" name="user_state"> <br>
+
+    <label for="zipcode">Zip Code</label> <br>
+    <input type="zipcode" id="zipcode" name="user_zipcode"> <br>
+
+   
+<br>
+    <label>Age</label> <br>
+    <input type="radio"  id="under 17" value="under 17" name="user_age"> 
+    <label for="under_13" class="light">  Under 17 </label> <br>
+    
+ 
+
+    <input type="radio"  id="over 17" value="over 17" name="user_age"> 
+    <label for="over_13" class="light">  17 or older (Must present ID to staff member at time of show if Rated R movie)</label> 
+
+    <br>
+    <br>
+
+    <label for="shows">Ticket Selection:</label>
+    <br>
+    <select id="show" name="show_times">
+      <optgroup label="Pirates of the Caribbean: Dead Men Tell No Tales">
+      <option value="7:10pm">7:10pm</option>
+      <option value="9:45pm">9:45pm</option>
+        </optgroup>
+        
+      <optgroup label="Alien: Covenant">
+      <option value="7:30pm">7:30pm</option>
+      <option value="10:00pm">10:00pm</option>
+              </optgroup>  
+
+      <optgroup label="Diary of a Wimpy Kid: The Long Haul">
+      <option value="9:45pm">9:45pm</option>
+</optgroup>
+
+ </optgroup>
+      <optgroup label="Everything, Everything">
+      <option value="11:30am">11:30am</option>
+      <option value="4:00pm">4:00pm</option>
+              </optgroup>  
+     
+     </optgroup>
+      <optgroup label="Baywatch">
+      <option value="12:00pm">12:00pm</option>
+      <option value="5:00pm">5:00pm</option>
+      <option value+"10:00pm">10:00pm</option>
+              </optgroup>  
+    </select>
+    <br>
+    <label>Ticket Price and Quantity</label> <br>
+    <input type="checkbox" id="price" value="ticket_selection" name="user_interest"><label class="light" 
+
+
+    for="Adult">Adult</label> <br>
+    <input type="checkbox" id="price" value="ticket_selection" name="Child"><label class="light" for="design">Child</label> <br>
+    <input type="checkbox" id="business" value="interest_business" name="user_business"><label class="light" for="business">Senior</label> <br>
+
+  <input type="checkbox" id="business" value="interest_business" name="user_business"><label class="light" for="business">Military/First Responder</label> <br>
+
+<br>
+
+Payment Method <br>
+<label for="shows">Card:</label><br>
+    <select id="card" name="credit_card">
+      
+      <option value="Discover">Discover</option>
+      <option value="Visa">Visa</option>
+      <option value="American Express">American Express</option>
+      <br>
+      <br>
+<label for="name">Credit Card Number</label> <br>
+    <input type="text" id="name" name="user_name"> <br>
+
+    <label for="name">Expiration Date (##/##/####)</label> <br>
+    <input type="text" id="name" name="user_name"> <br>
+
+    <label for="name">Security Code</label> <br>
+    <input type="text" id="name" name="user_name"> <br>
+
+  </fieldset>
+  <button type="submit">Purchase Tickets</button>
+      </form>
+      
+      	
+	<script src="app.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
+    </fieldset>
+
+<br>
+<br>
+
+<footer> &copy 2017 Anderson's Theatre </footer>
+        

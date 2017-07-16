@@ -1,0 +1,82 @@
+/****BASE*****/
+body {
+    font-family: 'Open Sans', Sans-Serif;
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/*****Navigation****/
+nav a {
+text-align: center;
+  padding: 10px 0;
+  margin: 20px 0;font-weight: 800;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+nav a, nav a:visited {
+  color:black;
+} 
+ nav a.selected, nav a:hover {
+ color: red; 
+}
+
+/*********HEADER***********/
+.header {
+  background-image: url('film1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color:#000;
+  text-align: center;
+}
+
+
+/***Movie***/
+.img {
+  font-weight: 800;
+  padding: 15px 10px;
+  width: 50%;
+}
+
+#wrapper {
+    max-width: 940px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%
+}
+#movie {
+background-color: snow
+}
+
+
+
+/***Media Queries**/
+
+@media only screen and (min-width: 480px)
+{
+   img {
+      max-width: 50%;
+      display: block;
+      margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px)
+{
+img {
+      max-width: 50%;
+      display: block;
+      margin: 0 auto;
+}
+
+@media only screen and (min-width: 1140px) 
+{
+
+    img {
+      max-width: 50%;
+      display: block;
+      margin: 0, auto;
+    }
